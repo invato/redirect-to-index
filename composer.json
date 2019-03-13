@@ -1,0 +1,29 @@
+{
+    "name": "invato/redirect-to-index",
+    "description": "Laravel Nova package to redirect to the index view instead of the detail after creating or editing a resource.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invato\\RedirectToIndex\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Invato\\RedirectToIndex\\AssetServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
